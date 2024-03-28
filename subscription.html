@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payments & Updates</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .payment-options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .payment-option {
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Payments & Updates</h1>
+  <div class="payment-options">
+    <div class="payment-option" id="monthly">
+      <h2>Monthly Subscription</h2>
+      <p>$49.99/month</p>
+      <p><a href="#" onclick="subscribe('monthly')">Subscribe</a></p>
+    </div>
+    <div class="payment-option" id="annually">
+      <h2>Annual Subscription</h2>
+      <p>$499.99/year</p>
+      <p><a href="#" onclick="subscribe('annually')">Subscribe</a></p>
+    </div>
+  </div>
+  <div id="updates">
+    <h2>Push Updates</h2>
+    <p><button onclick="pushUpdates()">Push Updates</button></p>
+  </div>
+</div>
+<script>
+  function subscribe(plan) {
+    // Redirect user to payment gateway for subscription
+    if (plan === 'monthly') {
+      window.location.href = 'payment/monthly';
+    } else if (plan === 'annually') {
+      window.location.href = 'payment/annually';
+    }
+  }
+  
+  function pushUpdates() {
+    // Call backend API to push updates
+    alert('Updates pushed successfully!');
+  }
+</script>
+</body>
+</html>
