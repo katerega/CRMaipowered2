@@ -100,94 +100,63 @@ a:hover {
 
 </style>
     
-    <body>
+   <body>
     <header>
         <h1>AI-powered CRM</h1>
         <!-- Navigation menu can be added here -->
     </header>
 
-    CRM AI Powered  <a href="subscription.html">Subscribe to CRM AI</a>
-
     <main>
-       
-        <section id="customer-list1">
+        <section id="customer-list-container">
             <!-- Customer list will be displayed here -->
+            <h2>Customer List</h2>
+            <ul id="customer-list">
+                <!-- Customer records will be dynamically generated here -->
+            </ul>
         </section>
-      <section id="customer-details1">
-    <!-- Customer details will be displayed here -->
-    <!-- Placeholder: Display basic customer details -->
-    <h2>Customer Details</h2>
-    <p>Name: John Doe</p>
-    <p>Email: john.doe@example.com</p>
-    <p>Phone: 123-456-7890</p>
-</section>
 
-<section id="search">
-    <input type="text" id="search-input" placeholder="Search customers...">
-    <button id="search-button">Search</button>
-</section>
+        <section id="customer-details">
+            <!-- Customer details will be displayed here -->
+            <h2>Selected Customer Details</h2>
+            <div id="customer-details-info">
+                <!-- Detailed customer information will be dynamically populated here -->
+            </div>
+        </section>
 
-<section id="customer-list">
-    <!-- Customer list will be displayed here -->
-    <!-- Placeholder: Display customer records with options to view, update, or delete -->
-    <h2>Customer List</h2>
-    <ul>
-        <li>
-            <span>Name: Jane Smith</span>
-            <button class="view-button">View</button>
-            <button class="update-button">Update</button>
-            <button class="delete-button">Delete</button>
-        </li>
-        <!-- Additional customer records can be added dynamically -->
-    </ul>
-</section>
+        <section id="search">
+            <!-- Search functionality -->
+            <input type="text" id="search-input" placeholder="Search customers...">
+            <button id="search-button">Search</button>
+        </section>
 
-<section id="customer-details">
-    <!-- Customer details will be displayed here -->
-    <!-- Placeholder: Display detailed information about the selected customer -->
-    <h2>Selected Customer Details</h2>
-    <p>Name: Jane Smith</p>
-    <p>Email: jane.smith@example.com</p>
-    <p>Phone: 987-654-3210</p>
-    <!-- Additional details can be displayed dynamically -->
-</section>
+        <section id="ai-insights">
+            <!-- AI-driven insights will be displayed here -->
+            <h2>AI-Driven Insights</h2>
+            <div id="ai-insights-info">
+                <!-- AI insights such as purchasing patterns, recommendations, etc., will be dynamically populated here -->
+            </div>
+        </section>
 
-<section id="ai-insights">
-    <!-- AI-driven insights will be displayed here -->
-    <!-- Placeholder: Display insights such as purchasing patterns, recommendations, etc. -->
-    <h2>AI-Driven Insights</h2>
-    <p>Purchasing Patterns:</p>
-    <ul>
-        <li>Most purchased product: Product A</li>
-        <li>Recommended product: Product B</li>
-    </ul>
-    <!-- Additional insights can be displayed dynamically -->
-</section>
+        <section id="automation">
+            <!-- Automation of tasks will be handled here -->
+            <h2>Task Automation</h2>
+            <button id="follow-up-email-button">Send Follow-Up Email</button>
+            <button id="schedule-appointment-button">Schedule Appointment</button>
+            <!-- Additional automation options can be added -->
+        </section>
 
-<section id="automation">
-    <!-- Automation of tasks will be handled here -->
-    <!-- Placeholder: Options for automating tasks like follow-up emails, appointments, etc. -->
-    <h2>Task Automation</h2>
-    <button id="follow-up-email-button">Send Follow-Up Email</button>
-    <button id="schedule-appointment-button">Schedule Appointment</button>
-    <!-- Additional automation options can be added -->
-</section>
+        <section id="integration">
+            <!-- Integration with external systems will be managed here -->
+            <h2>Integration with External Systems</h2>
+            <button id="integrating-button">Integrate</button>
+        </section>
 
-<section id="integration">
-    <!-- Integration with external systems will be managed here -->
-    <!-- Placeholder: Options for integrating with external platforms -->
-    <h2>Integration with External Systems</h2>
-    <button id="integrating-button">Integrate</button>
-</section>
-
-<section id="customization">
-    <!-- Customization and scalability features will be managed here -->
-    <!-- Placeholder: Options for customizing fields, workflows, etc. -->
-    <h2>Customization and Scalability</h2>
-    <button id="customize-fields-button">Customize Fields</button>
-    <button id="customize-workflows-button">Customize Workflows</button>
-</section>
-
+        <section id="customization">
+            <!-- Customization and scalability features will be managed here -->
+            <h2>Customization and Scalability</h2>
+            <button id="customize-fields-button">Customize Fields</button>
+            <button id="customize-workflows-button">Customize Workflows</button>
+        </section>
     </main>
     <footer>
         <!-- Footer content can be added here -->
