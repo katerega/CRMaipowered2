@@ -98,6 +98,33 @@ a:hover {
     text-decoration: underline;
 }
 
+        .industry-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-wrapper label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Optional: Style for checkbox label when checked */
+.checkbox-wrapper input[type="checkbox"]:checked + label {
+    font-weight: bold;
+    color: blue;
+}
+
+
 </style>
     
     <body>
@@ -198,6 +225,165 @@ It should be scalable to accommodate growth in the volume of data and users over
     <h2>Customization and Scalability</h2>
     <button id="customize-fields-button">Customize Fields</button>
     <button id="customize-workflows-button">Customize Workflows</button>
+
+    <div class="industry-container">
+    <h2>Select Industries:</h2>
+    <div class="checkbox-wrapper">
+        <input type="checkbox" id="retail" name="industry" value="Retail">
+        <label for="retail">Retail</label>
+
+        <input type="checkbox" id="healthcare" name="industry" value="Healthcare">
+        <label for="healthcare">Healthcare</label>
+
+        <input type="checkbox" id="manufacturing" name="industry" value="Manufacturing">
+        <label for="manufacturing">Manufacturing</label>
+
+        <input type="checkbox" id="education" name="industry" value="Education">
+        <label for="education">Education</label>
+
+        <input type="checkbox" id="real-estate" name="industry" value="Real Estate">
+        <label for="real-estate">Real Estate</label>
+
+        <input type="checkbox" id="hospitality" name="industry" value="Hospitality">
+        <label for="hospitality">Hospitality</label>
+
+        <input type="checkbox" id="finance" name="industry" value="Finance">
+        <label for="finance">Finance</label>
+
+        <input type="checkbox" id="legal" name="industry" value="Legal">
+        <label for="legal">Legal</label>
+
+        <input type="checkbox" id="technology" name="industry" value="Technology">
+        <label for="technology">Technology</label>
+
+        <input type="checkbox" id="construction" name="industry" value="Construction">
+        <label for="construction">Construction</label>
+
+        <!-- Add checkboxes for other industries similarly -->
+        
+        <!-- Example: -->
+        <input type="checkbox" id="automotive" name="industry" value="Automotive">
+        <label for="automotive">Automotive</label>
+
+        <input type="checkbox" id="agriculture" name="industry" value="Agriculture">
+        <label for="agriculture">Agriculture</label>
+
+        <input type="checkbox" id="media-entertainment" name="industry" value="Media & Entertainment">
+        <label for="media-entertainment">Media & Entertainment</label>
+
+        <input type="checkbox" id="energy" name="industry" value="Energy">
+        <label for="energy">Energy</label>
+
+        <input type="checkbox" id="transportation" name="industry" value="Transportation">
+        <label for="transportation">Transportation</label>
+
+        <input type="checkbox" id="food-beverage" name="industry" value="Food & Beverage">
+        <label for="food-beverage">Food & Beverage</label>
+
+        <input type="checkbox" id="telecommunications" name="industry" value="Telecommunications">
+        <label for="telecommunications">Telecommunications</label>
+
+        <input type="checkbox" id="fashion" name="industry" value="Fashion">
+        <label for="fashion">Fashion</label>
+
+        <input type="checkbox" id="aerospace" name="industry" value="Aerospace">
+        <label for="aerospace">Aerospace</label>
+
+        <input type="checkbox" id="pharmaceutical" name="industry" value="Pharmaceutical">
+        <label for="pharmaceutical">Pharmaceutical</label>
+
+        <input type="checkbox" id="non-profit" name="industry" value="Non-profit">
+        <label for="non-profit">Non-profit</label>
+
+        <input type="checkbox" id="government" name="industry" value="Government">
+        <label for="government">Government</label>
+
+        <input type="checkbox" id="fitness-wellness" name="industry" value="Fitness & Wellness">
+        <label for="fitness-wellness">Fitness & Wellness</label>
+
+        <input type="checkbox" id="travel-tourism" name="industry" value="Travel & Tourism">
+        <label for="travel-tourism">Travel & Tourism</label>
+
+        <input type="checkbox" id="environmental-services" name="industry" value="Environmental Services">
+        <label for="environmental-services">Environmental Services</label>
+
+        <input type="checkbox" id="insurance" name="industry" value="Insurance">
+        <label for="insurance">Insurance</label>
+
+        <input type="checkbox" id="human-resources" name="industry" value="Human Resources">
+        <label for="human-resources">Human Resources</label>
+
+        <input type="checkbox" id="beauty-personal-care" name="industry" value="Beauty & Personal Care">
+        <label for="beauty-personal-care">Beauty & Personal Care</label>
+
+        <input type="checkbox" id="e-commerce" name="industry" value="E-commerce">
+        <label for="e-commerce">E-commerce</label>
+
+        <input type="checkbox" id="software-development" name="industry" value="Software Development">
+        <label for="software-development">Software Development</label>
+
+        <input type="checkbox" id="logistics-supply-chain" name="industry" value="Logistics & Supply Chain">
+        <label for="logistics-supply-chain">Logistics & Supply Chain</label>
+
+        <input type="checkbox" id="consulting" name="industry" value="Consulting">
+        <label for="consulting">Consulting</label>
+
+        <input type="checkbox" id="architecture" name="industry" value="Architecture">
+        <label for="architecture">Architecture</label>
+
+        <input type="checkbox" id="event-planning" name="industry" value="Event Planning">
+        <label for="event-planning">Event Planning</label>
+
+        <input type="checkbox" id="marketing-advertising" name="industry" value="Marketing & Advertising">
+        <label for="marketing-advertising">Marketing & Advertising</label>
+
+        <input type="checkbox" id="sports-recreation" name="industry" value="Sports & Recreation">
+        <label for="sports-recreation">Sports & Recreation</label>
+
+        <input type="checkbox" id="home-services" name="industry" value="Home Services">
+        <label for="home-services">Home Services</label>
+
+        <input type="checkbox" id="security" name="industry" value="Security">
+        <label for="security">Security</label>
+
+        <input type="checkbox" id="printing-publishing" name="industry" value="Printing & Publishing">
+        <label for="printing-publishing">Printing & Publishing</label>
+
+        <input type="checkbox" id="research-development" name="industry" value="Research & Development">
+        <label for="research-development">Research & Development</label>
+
+        <input type="checkbox" id="social-services" name="industry" value="Social Services">
+        <label for="social-services">Social Services</label>
+
+        <input type="checkbox" id="waste-management" name="industry" value="Waste Management">
+        <label for="waste-management">Waste Management</label>
+
+        <input type="checkbox" id="aviation" name="industry" value="Aviation">
+        <label for="aviation">Aviation</label>
+
+        <input type="checkbox" id="gaming" name="industry" value="Gaming">
+        <label for="gaming">Gaming</label>
+
+        <input type="checkbox" id="biotechnology" name="industry" value="Biotechnology">
+        <label for="biotechnology">Biotechnology</label>
+
+        <input type="checkbox" id="music" name="industry" value="Music">
+        <label for="music">Music</label>
+
+        <input type="checkbox" id="interior-design" name="industry" value="Interior Design">
+        <label for="interior-design">Interior Design</label>
+
+        <input type="checkbox" id="textiles" name="industry" value="Textiles">
+        <label for="textiles">Textiles</label>
+
+        <input type="checkbox" id="cryptocurrency" name="industry" value="Cryptocurrency">
+        <label for="cryptocurrency">Cryptocurrency</label>
+
+        <input type="checkbox" id="fine-arts" name="industry" value="Fine Arts">
+        <label for="fine-arts">Fine Arts</label>
+    </div>
+</div>
+
 </section>
 
     </main>
