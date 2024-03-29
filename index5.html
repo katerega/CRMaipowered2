@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-powered CRM</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can link to your CSS file for styling -->
+</head>
+
+    <style>
+    /* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #00A1E0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #00A1E0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #007BBC;
+}
+
+/* Input styles */
+input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Customer list styles */
+#customer-list ul {
+    list-style-type: none;
+}
+
+/* Customer list item styles */
+#customer-list ul li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* AI insights styles */
+#ai-insights ul {
+    list-style-type: none;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Link styles */
+a {
+    color: #00A1E0;
+    text-decoration: none;
+}
+
+/* Link hover effect */
+a:hover {
+    text-decoration: underline;
+}
+
+</style>
+    
+   <body>
+    <header>
+        <h1>AI-powered CRM</h1>
+        <!-- Navigation menu can be added here -->
+    </header>
+
+    <main>
+        <section id="customer-list-container">
+            <!-- Customer list will be displayed here -->
+            <h2>Customer List</h2>
+            <ul id="customer-list">
+                <!-- Customer records will be dynamically generated here -->
+            </ul>
+        </section>
+
+        <section id="customer-details">
+            <!-- Customer details will be displayed here -->
+            <h2>Selected Customer Details</h2>
+            <div id="customer-details-info">
+                <!-- Detailed customer information will be dynamically populated here -->
+            </div>
+        </section>
+
+        <section id="search">
+            <!-- Search functionality -->
+            <input type="text" id="search-input" placeholder="Search customers...">
+            <button id="search-button">Search</button>
+        </section>
+
+        <section id="ai-insights">
+            <!-- AI-driven insights will be displayed here -->
+            <h2>AI-Driven Insights</h2>
+            <div id="ai-insights-info">
+                <!-- AI insights such as purchasing patterns, recommendations, etc., will be dynamically populated here -->
+            </div>
+        </section>
+
+        <section id="automation">
+            <!-- Automation of tasks will be handled here -->
+            <h2>Task Automation</h2>
+            <button id="follow-up-email-button">Send Follow-Up Email</button>
+            <button id="schedule-appointment-button">Schedule Appointment</button>
+            <!-- Additional automation options can be added -->
+        </section>
+
+        <section id="integration">
+            <!-- Integration with external systems will be managed here -->
+            <h2>Integration with External Systems</h2>
+            <button id="integrating-button">Integrate</button>
+        </section>
+
+        <section id="customization">
+            <!-- Customization and scalability features will be managed here -->
+            <h2>Customization and Scalability</h2>
+            <button id="customize-fields-button">Customize Fields</button>
+            <button id="customize-workflows-button">Customize Workflows</button>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content can be added here -->
+    </footer>
+    <script src="script.js"></script> <!-- You can link to your JavaScript file for functionality -->
+</body>
+</html>
